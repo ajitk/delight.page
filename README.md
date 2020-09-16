@@ -1,4 +1,4 @@
-# delight.page
+# DeLight
 
 Problem: Many websites don't support dark mode. Extension based forced dark modes don't work well for many.
 
