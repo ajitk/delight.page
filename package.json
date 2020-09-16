@@ -1,0 +1,24 @@
+{
+  "name": "extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@tailwindcss/ui": "^0.6.1",
+    "postcss-cli": "^7.1.2",
+    "rollup-plugin-url-resolve": "^0.1.1",
+    "tailwindcss": "^1.8.10"
+  },
+  "scripts": {
+    "watch:tailwind": "postcss css/app.css -o build/app.css -w",
+    "build": "postcss css/app.css -o build/app.css",
+    "watch": "bash watch.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENCED"
+}
